@@ -1140,7 +1140,6 @@ var jsPanel = {
                         document.removeEventListener(e, dragElmt);
                     });
 
-                    document.body.style.overflow = 'inherit';
                     jsPanel.removeSnapAreas();
 
                     if (dragstarted) {
